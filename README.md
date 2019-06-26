@@ -7,3 +7,5 @@ rails new web-srcrapper-ror
 gem "nokogiri"
 gem "pry"
 
+# show responce in terminal by typing:
+ruby main.rb
