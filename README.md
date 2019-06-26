@@ -15,3 +15,8 @@ https://medium.com/@jonwu_/scraping-with-nokogiri-without-blowing-your-brains-ou
 
 # gem 'sinatra'
 Sinatra is a DSL for quickly creating web applications in Ruby with minimal effort
+
+# passing data to view 
+<% @data.each do |item| %>
+  <p><%= item %></p>
+<% end %>
