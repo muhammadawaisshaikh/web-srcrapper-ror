@@ -24,3 +24,5 @@ def scraper
   output
 
 end
+
+puts scraper
