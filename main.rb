@@ -34,6 +34,6 @@ get '/' do
 end
 
 get('/scraper') do
-  @data = scraper.output
+  @data = scraper
   erb :scrap
 end
