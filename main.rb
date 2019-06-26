@@ -1,6 +1,7 @@
 require 'pry'
 require 'nokogiri'
 require 'open-uri'
+require 'sinatra'
 
 def scraper
 
@@ -25,4 +26,14 @@ def scraper
 
 end
 
-puts scraper
+# for terminal viewing output
+# puts scraper
+
+get '/' do
+  erb :index
+end
+
+get('/scraper') do
+  @data = scraper.output
+  erb :scrap
+end

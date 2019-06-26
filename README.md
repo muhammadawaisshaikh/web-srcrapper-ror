@@ -12,3 +12,6 @@ ruby main.rb
 
 # refrence
 https://medium.com/@jonwu_/scraping-with-nokogiri-without-blowing-your-brains-out-da3137082370
+
+# gem 'sinatra'
+Sinatra is a DSL for quickly creating web applications in Ruby with minimal effort
