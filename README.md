@@ -20,3 +20,6 @@ Sinatra is a DSL for quickly creating web applications in Ruby with minimal effo
 <% @data.each do |item| %>
   <p><%= item %></p>
 <% end %>
+
+# starting sinatra server
+ruby main.rb
